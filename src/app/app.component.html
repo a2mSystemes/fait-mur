@@ -1,0 +1,14 @@
+<header>
+  <h1>{{ title }}</h1>
+  <ul>
+    <li><a [routerLink]="['/']">Dashboard</a></li>
+    <li><a [routerLink]="['/designer']">Designer</a></li>
+    <li><a [routerLink]="['/preferences']">Preferences</a></li>
+    <li><a [routerLink]="['/sketcher']">Sketcher</a></li>
+    <li><a [routerLink]="['/display',15]">Display</a></li>
+    <li><a [routerLink]="['/display-manager', 15]">Display Manager</a></li>
+  </ul>
+</header>
+<main></main>
+
+<router-outlet />
